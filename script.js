@@ -38,6 +38,7 @@ var models = [
 var index = 2;
 var slaytCount = models.length;
 var interval;
+
 var settings = {
     duration: "1000",
     random: false,
@@ -51,7 +52,7 @@ document.querySelector(".fa-circle-left").addEventListener("click", function () 
     console.log(index);
 })
 
-document.querySelector("fa-circle-right").addEventListener("click", function () {
+document.querySelector(".fa-circle-right").addEventListener("click", function () {
     index++;
     showSlide(index);
     console.log(index);
